@@ -5,26 +5,10 @@
 #set heading(numbering: "1-1")
 #set enum(numbering: "(a)")
 
-#let theorem = thmbox("theorem", "Theorem", fill: rgb("#eeffee"))
-#let corollary = thmplain(
-  "corollary",
-  "Corollary",
-  base: "theorem",
-  titlefmt: strong
-)
-#let definition = thmbox("definition", "Definition", inset: (x: 1.2em, top: 1em))
-
 #let problem = thmbox("theorem", "Problem", fill: rgb("#ffeeee")).with(numbering: "1-1")
-
-#let example = thmplain("example", "Example").with(numbering: none)
 #let proof = thmproof("proof", "Proof")
 
 #let interior = $op("Int")$
-
-// #problem[ ]
-// #problem[ ]
-// #problem[ ]
-// #problem[ ]
 
 #outline()
 
