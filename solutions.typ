@@ -5,9 +5,6 @@
 #set heading(numbering: "1-1")
 #set enum(numbering: "(a)")
 
-= Introduction
-= Topological Spaces
-
 #let theorem = thmbox("theorem", "Theorem", fill: rgb("#eeffee"))
 #let corollary = thmplain(
   "corollary",
@@ -28,6 +25,11 @@
 // #problem[ ]
 // #problem[ ]
 // #problem[ ]
+
+#outline()
+
+= Introduction
+= Topological Spaces
 
 #problem(number: "2-5")[
   For each of the following properties, give an example consisting of two subsets $X, Y subset.eq RR^2$, both considered as topological spaces with their Euclidian topologies, together with a map $f : X -> Y$ that has the indicated property.
